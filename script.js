@@ -7,8 +7,8 @@ let votes = [0, 0]; // Initialize votes for both options
 let hasVoted = false; // Track whether the user has voted
 
 function updateVoteCounts() {
-  option1Votes.textContent = `${votes[0]} Votes`;
-  option2Votes.textContent = `${votes[1]} Votes`;
+  option1Votes.textContent = `${votes[0]} քվե`;
+  option2Votes.textContent = `${votes[1]} քվե`;
 }
 
 function vote(optionIndex) {
